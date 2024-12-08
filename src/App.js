@@ -10,7 +10,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/Quiz-App" element={<Home />} />
         <Route path="/java" element={<Java />} />
         <Route path="/python" element={<Python />} />
         <Route path="/html" element={<Html />} />
